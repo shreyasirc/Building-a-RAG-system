@@ -6,7 +6,7 @@ This project provides a QA system that uses Retrieval-Augmented Generation (RAG)
 
 The `RAG system` uses `gpt-4o` LLM by default. It works by creating a vector database hosted in [Elastic Cloud](https://www.elastic.co/cloud), in order to store the documents and using them for Retrieval-Augmented Generation. It returns the LLM-generated answer along with the sources, ie. document name and page number. The prompt used for this RAG is also given in the prompt.txt file in the utils folder.
 
-The `Semantic_retrieval system` uses the `MiniLM-L6-v2` model by default. It works by embedding the document chunks as well as the queries. Then, it finds the cosine similarities between the documents and queries and finds the nearest document chunks matching the query. You can set the threshold for this similarity measure as well as the number of document chunks to return. It returns the chunk of documents as answer along with the sources, ie. document name.
+The `Semantic_retrieval system` uses the `MiniLM-L6-v2` model by default. It works by embedding the document chunks as well as the queries. Then, it finds the `cosine similarities` between the documents and queries and finds the nearest document chunks matching the query. You can set the threshold for this similarity measure as well as the number of document chunks to return. It returns the chunk of documents as answer along with the sources, ie. document name.
 
 If the system cannot find an answer to the question, it returns `Sorry this information is not present in our documents.` Sources are empty in that case.
 
