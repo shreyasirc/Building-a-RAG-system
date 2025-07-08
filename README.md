@@ -53,7 +53,6 @@ Follow these steps to run the application using Docker.
    my-fastapi-app
    ```
 ### Understanding the Dockerfile
-Here's a brief overview of what each section in `Dockerfile` does:
 
 ```Dockerfile
 # Use the official Python image from the Docker Hub
@@ -78,7 +77,6 @@ EXPOSE 8000
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-### Understanding the Dockerfile
 Here's a brief overview of what each section in `Dockerfile` does:
 
 - `FROM python:3.9-slim`: This line specifies the base image for the container, which is a minimal version of Python 3.9. Using a slim image reduces the overall size of the Docker image and minimizes unnecessary packages.
