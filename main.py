@@ -11,9 +11,9 @@ from utils import extract_text_from_pdfs, split_chunks_and_embed, embed_text
 from models import store_as_vectordb
 from models import build_rag_chain
 
-openAI_key = "sk-xpZI1AehtXlMCE7G1ZzhIfHPTQ6F4NXQrpAwkj5zKaT3BlbkFJaHrJInF4uLx_8UMrEQpDjRNuSBdUH8MqSymSByhT8A"
-es_cloud_id="QA:dXMtZWFzdC0yLmF3cy5lbGFzdGljLWNsb3VkLmNvbTo0NDMkMGY1M2IyNDUyZDBhNDI2ZjgwYjRkNjcxNDc2MWZkY2YkNTY4ZjBjZjRkNTRkNGY5ZjgyZjI2YmFmMzFiNjI0Mzk="
-es_api_key="TGxNWjk1RUJ2cmNPajF3QW9UWmM6S2pCQjhDLWtUMnFwbEphbTVJZTVzZw=="
+openAI_key = #openAI_key
+es_cloud_id= #ElasticSearch cloud_id
+es_api_key= ##ElasticSearch api_key
 
 os.environ["OPENAI_API_KEY"] = openAI_key
 
