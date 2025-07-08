@@ -12,8 +12,8 @@ from models import store_as_vectordb
 from models import build_rag_chain
 
 openAI_key = #openAI_key
-es_cloud_id= #ElasticSearch cloud_id
-es_api_key= ##ElasticSearch api_key
+es_cloud_id= #Elastic Cloud cloud_id
+es_api_key= ##Elastic Cloud api_key
 
 os.environ["OPENAI_API_KEY"] = openAI_key
 
