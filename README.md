@@ -1,8 +1,8 @@
-# FastAPI QA System with Docker
+# QA System with Docker using RAG
 
 ## Overview
 
-This project provides a FastAPI-based service for a QA system that uses Retrieval-Augmented Generation (RAG) and semantic retrieval methods. The service is containerized using Docker, allowing for easy deployment and management.
+This project provides a QA system that uses Retrieval-Augmented Generation (RAG) and semantic retrieval methods. The service is containerized using Docker, allowing for easy deployment and management.
 
 The `RAG system` uses `gpt-4o` LLM by default. It works by creating a vector database hosted in [Elastic Cloud](https://www.elastic.co/cloud), in order to store the policy documents and using them for Retrieval-Augmented Generation. It returns the LLM-generated answer along with the sources, ie. document name and page number. The prompt used for this RAG is also given in the prompt.txt file in the utils folder.
 
@@ -19,7 +19,7 @@ If the system cannot find an answer to the question, it returns `Sorry this info
 
 ## Getting Started
 
-Follow these steps to run the FastAPI application using Docker.
+Follow these steps to run the application using Docker.
 
 ### Prerequisites
 
