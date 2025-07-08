@@ -52,7 +52,7 @@ Follow these steps to run the application using Docker.
    my-fastapi-app
    ```
 ### Understanding the Dockerfile
-Here's a brief overview of what each section in your `Dockerfile` does:
+Here's a brief overview of what each section in `Dockerfile` does:
 
 ```Dockerfile
 # Use the official Python image from the Docker Hub
